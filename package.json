@@ -1,0 +1,24 @@
+{
+  "name": "fssgis-docs",
+  "version": "1.0.0",
+  "description": "✨fssgis文档✨",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/fssgis/fssgis-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^0.15.6"
+  },
+  "dependencies": {
+    "@fssgis/core": "^0.1.2"
+  }
+}
